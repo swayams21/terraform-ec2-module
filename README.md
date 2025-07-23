@@ -177,12 +177,3 @@ terraform destroy
 
 
 ---
-
-```
-
-Let me know if you also want:
-
-- Outputs displayed in CLI after `apply`
-- `.gitignore` or `.terraform.lock.hcl` handling
-- CI/CD integration example (e.g., GitHub Actions)
-```
