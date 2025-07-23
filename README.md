@@ -26,8 +26,6 @@ project-root/
         ├── variables.tf  # Input variables for the EC2 module
         └── outputs.tf    # Output values from the EC2 module
 
-
-
 ---
 
 ## 🔧 Root Configuration - `main.tf`
