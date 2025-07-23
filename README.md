@@ -17,17 +17,16 @@ This project demonstrates provisioning EC2 instances in AWS using **Terraform mo
 
 ## 📁 Project Structure
 
-```
-.
-├── main.tf                  # Root Terraform configuration
-├── terraform.tfstate        # Terraform state file (auto-generated)
+project-root/
+├── main.tf               # Root Terraform configuration
+├── terraform.tfstate     # Terraform state file (auto-generated)
 └── modules/
-└── ec2/
-├── main.tf          # EC2 resource definition
-├── variables.tf     # Input variables for the EC2 module
-└── outputs.tf       # Output values from the EC2 module
+    └── ec2/
+        ├── main.tf       # EC2 resource definition
+        ├── variables.tf  # Input variables for the EC2 module
+        └── outputs.tf    # Output values from the EC2 module
 
-````
+
 
 ---
 
